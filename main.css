@@ -1,19 +1,18 @@
 /* ===============================
    COMP1054 - Lab 2: Crack the Colour Code
-   Student: [Senin ismin]
-   File: styles.css
+   Student: Ahmet Berke Carkci
    =============================== */
 
-/* 🎨 CSS Variables - Color Palette */
+/*  CSS variables color palete */
 :root {
-  --primary: #1e3d59;   /* koyu mavi */
-  --secondary: #f5f0e1; /* krem */
-  --accent: #ff6e40;    /* turuncu */
+  --primary: #1e3d59;   /* dark blue */
+  --secondary: #f5f0e1; /* creme */
+  --accent: #ff6e40;    /* orange */
   --text-dark: #222;
   --text-light: #fff;
 }
 
-/* Genel ayarlar */
+/* general  */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -22,7 +21,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header (Hero) alanı */
+/* header */
 header {
   height: 80vh;
   display: flex;
@@ -50,14 +49,14 @@ header p {
   color: var(--text-light);
 }
 
-/* Bölüm ayarları */
+/* section */
 section {
   padding: 60px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-/* Buton */
+/* button */
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -74,10 +73,11 @@ section {
   background: var(--primary);
 }
 
-/* Footer */
+/* footer */
 footer {
   background: var(--primary);
   color: var(--text-light);
   text-align: center;
   padding: 20px;
 }
+
