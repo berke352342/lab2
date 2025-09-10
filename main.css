@@ -40,34 +40,11 @@ header h1 {
   color: var(--accent);
 }
 
-header p {
-  font-size: 1.25rem;
-  margin-top: 10px;
-  color: var(--text-light);
-}
-
 /* section */
 section {
   padding: 60px 20px;
   max-width: 900px;
   margin: auto;
-}
-
-/* button */
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  background: var(--accent);
-  color: var(--text-light);
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.button:hover {
-  background: var(--primary);
 }
 
 /* footer */
@@ -77,4 +54,3 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
